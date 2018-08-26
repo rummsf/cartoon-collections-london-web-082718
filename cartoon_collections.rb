@@ -10,8 +10,8 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long = [short_words, assorted_words, long_words]
-  short_words < 4
-  long_words > 4
+  short_words < 4 == false
+  long_words > 4 == false
 end
 
 def find_the_cheese# code an argument here
