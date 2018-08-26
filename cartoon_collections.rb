@@ -9,6 +9,8 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls_long)
+  calls_long = [short_words, assorted_words, long_words]
+  short_words < 4; 
   # Your code here
 end
 
