@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  .upcase << !
+  names.map! {|name| name.upcase << !
 end
 
 def long_planeteer_calls# code an argument here
